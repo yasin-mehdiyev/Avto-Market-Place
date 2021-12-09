@@ -1,0 +1,32 @@
+/* Common Css Styling */
+p{
+    margin: 0;
+}
+/* Common Css Styling */
+
+.box-wrapper {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.box-wrapper .box-wrap {
+    background: #4DA6FF;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-wrapper .box-avto {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.box-wrapper .box-avto-name {
+    margin-bottom: 10%;
+    text-align: left;
+}

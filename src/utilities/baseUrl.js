@@ -1,0 +1,1 @@
+export const baseUrl = 'http://vtbfront.mocklab.io/api';

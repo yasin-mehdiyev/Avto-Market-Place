@@ -1,0 +1,20 @@
+.logo-box {
+    border: 1px solid #bbbbbb;
+    padding: 15px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logo-box .logo-box-header {
+    margin-bottom: 5%;
+}
+
+.logo-box .logo-box-header img {
+    height: 36px;
+    width: 36px;
+}
+
+.logo-box .logo-box-name span {
+    color: #333!important;
+    text-decoration: none!important;
+}

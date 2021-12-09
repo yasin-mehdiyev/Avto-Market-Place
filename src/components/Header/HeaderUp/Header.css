@@ -1,0 +1,15 @@
+.custom-btn {
+    padding: 2px 9px!important;
+}
+.dropdown-menu{
+    min-width: 0!important;
+    padding: 0!important;
+    margin-top: 5px!important;
+}
+.nav-item {
+    padding-left: 15px!important;
+    text-align: center;
+}
+.nav-link{
+    color: #fff!important;
+}

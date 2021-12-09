@@ -1,0 +1,215 @@
+.productWrapper ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.productWrapper ul li {
+    width: 16.66%;
+}
+
+.productWrapper ul li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productWrapper ul li .count {
+    display: flex;
+    justify-content: center;
+}
+
+.productWrapper ul li .shopping-cart {
+    padding: 10px 20px;
+    background: #333;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.productWrapper ul li .count .count-decrement, .productWrapper ul li .count .count-increment {
+    padding: 5px 10px;
+    background: #4DA6FF;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.productWrapper ul li .count .count-decrement {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.productWrapper ul li .count .count-text {
+    padding: 5px 10px;
+    border: 2px solid #4DA6FF;
+}
+
+.productWrapper ul li .count .count-increment {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.custom-btn-view-customer {
+    padding: 8px 25px;
+    background: #4DA6FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-logo, .product-count, .work-hours {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo::after {
+    content: '';
+    height: 110px;
+    border: 1px solid #e5e5e5f2;
+}
+.header-logo .logo-wrap, .product-count .logo-wrap, .work-hours .logo-wrap {
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.header-logo .logo-wrap {
+    padding: 18px 13px;
+}
+
+.header-logo .logo-wrap {
+    background: #4DA6FF;
+}
+
+.header-logo .logo-content, .product-count .logo-content, .work-hours .logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo .logo-content h5, .header-logo .logo-content p, .product-count .logo-content h5, .product-count .logo-content p, .work-hours .logo-content h5, .work-hours .logo-content p {
+    margin: 0;
+}
+
+.header-logo .logo-content h5, .product-count .logo-content h5, .work-hours .logo-content h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header-logo .logo-content h5 {
+    color: #4DA6FF;
+}
+
+.product-count .logo-content h5, .work-hours .logo-content h5 {
+    color: #333;
+}
+
+.header-logo .logo-content p, .product-count .logo-content p, .work-hours .logo-content p {
+    line-height: 20px;
+    color: #7c7979f2;
+}
+
+.react-responsive-modal-modal {
+    max-width: 1200px!important;
+}
+
+.modal-body h5 {
+    color: #4DA6FF;
+    font-weight: bold;
+}
+
+.modal-body p {
+    color: rgb(82, 82, 82);
+    font-size: 17px;
+}
+
+.footer-socials .footer-social-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-socials .footer-social-menu li {
+    padding: 8px 12px;
+    border: 1px solid #4DA6FF;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Pagination Style */
+.paginationBttns {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  .paginationBttns li {
+      padding: 10px 5px;
+  }
+  
+  .paginationBttns a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #4DA6FF;
+    color: #4DA6FF;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4DA6FF!important;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: #fff!important;
+    background-color: #4DA6FF;
+  }
+  
+  .paginationActive a {
+    color: #fff!important;
+    background-color: #4DA6FF;
+  }
+  
+  .paginationDisabled a, .paginationDisabled a:hover {
+      color: #000!important;
+      background-color: #dfdfdf;
+      cursor: not-allowed;
+  }
+  /* Pagination Style */
+
+  @media only screen and (max-width: 991px) {
+    .productWrapper ul li {
+        width: 33.3%;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .productWrapper ul li {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .custom-btn-view-customer {
+        padding: 8px 13px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .custom-btn-view-customer {
+        padding: 8px 15px;
+    }
+  }

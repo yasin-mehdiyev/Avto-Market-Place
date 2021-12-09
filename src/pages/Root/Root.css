@@ -1,0 +1,16 @@
+.auto-logo-wrapper {
+    display: flex;
+    margin: 5% 0;
+}
+
+.auto-logo-wrapper .auto-logo {
+    background: #4DA6FF;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-right: 2%;
+}
+.auto-logo-wrapper .auto-content {
+    text-align: left;
+    color: #4DA6FF;
+}

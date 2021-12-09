@@ -1,0 +1,85 @@
+.catalog-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.catalog-brand img {
+    height: 50px;
+    width: 50px;
+    margin-right: 5%;
+}
+
+.catalog-brand h3 {
+    font-weight: 100;
+    margin: 0;
+    font-size: 24px;
+}
+
+.general-info {
+    text-align: left;
+    color: #4DA6FF;
+    font-weight: bold;
+}
+
+.catalog-list{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.catalog-list-item {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.catalog-class-wrapper {
+    border: 1px solid #c9c9c9;
+    padding: 15px 0px;
+    color: #4DA6FF;
+    margin-bottom: 5%;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.catalog-class-wrapper:hover {
+    background-color: #4DA6FF;
+    color: #fff;
+    border: 1px solid #4DA6FF;
+}
+
+.catalog-class-wrapper .cat-class-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    margin-bottom: 8%;
+}
+
+.catalog-class-wrapper .cat-class-header .cat-class-name {
+    font-weight: bold;
+    text-align: left;
+}
+
+.catalog-class-wrapper .cat-class-header .cat-class-icon {
+    display: flex;
+    align-items: center;
+}
+
+.catalog-class-wrapper .cat-class-footer {
+    text-align: left;
+    padding: 0px 24px;
+}
+.custom-divider {
+    text-align: left;
+    cursor: pointer;
+}
+
+.custom-divider span {
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.custom-divider span:hover {
+    text-decoration: underline;
+}
