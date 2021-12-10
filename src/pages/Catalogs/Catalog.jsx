@@ -19,6 +19,8 @@ import { routingUrl } from "../../utilities/routingUrl";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 // Using my Custom Hook 
 import usePathname from "../../utilities/useLocation";
+// Get Car Logo
+import mercedes from '../../utilities/assets/cars/MERCEDES-BENZ.png';
 // Custom CSS Styles Files
 import "./Catalog.css";
 import "../../App.css";
@@ -99,9 +101,9 @@ const Catalog = () => {
                     >
                       <div className="catalog-brand">
                         <img
-                          src="http://148.251.68.243/images/things/images_carbrands/MERCEDES-BENZ.png"
+                          src={mercedes}
                           className="img-fluid"
-                          alt=""
+                          alt="#mercedes"
                         />
                         <h3>Mercedes-Benz</h3>
                       </div>

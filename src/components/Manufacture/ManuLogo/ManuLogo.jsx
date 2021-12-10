@@ -23,7 +23,7 @@ const ManuLogo = ({ manufactures }) => {
                 >
                   <div className="logo-box-header">
                     <img
-                      src={item.url}
+                      src={require(`../../../utilities/assets/cars/${item.manuName}.png`).default}
                       className="img-fluid"
                       alt={`#${item.manuName}`}
                     />
